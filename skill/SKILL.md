@@ -28,6 +28,10 @@ Prefer honest conclusions over forced passing tests.
 - If something cannot be proven from the repository or runtime behavior, ask the user instead of guessing.
 - If a failure is caused by a real system problem, surface it clearly rather than hiding it.
 
+## Input / Output Protocol
+
+Read [references/io-protocol.md](references/io-protocol.md) when starting, resuming, or delivering a business-test task. Use its five-stage contracts for project identification, business flows, test data, execution results, and failure review. Reuse valid upstream records, preserve evidence and version references, and distinguish blocked or unexecuted cases from passing results. Keep the workflow below; the protocol defines its handoffs.
+
 ## Workflow
 
 ### 1. Understand the project before writing tests
